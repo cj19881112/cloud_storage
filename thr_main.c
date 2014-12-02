@@ -40,6 +40,18 @@ void *thr_main(void *v)
 
 int cloud_server(int id, int cli_fd)
 {
+	message_t msg;
+	recv_msg(&msg);
+
+	switch (msg.type) {
+	case UPLOAD:
+		break;
+	case DOWNLOAD:
+		break;
+	case LIST:
+		break;
+	}
+
 	return 0;
 }
 
