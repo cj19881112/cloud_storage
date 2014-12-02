@@ -1,0 +1,41 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CONFIG_ITEM_LEN	conf.h	5;"	d
+CONF_FILE	conf.h	4;"	d
+CONF_H	conf.h	2;"	d
+LOAD_VAL	conf.c	17;"	d	file:
+LOAD_VAL	conf.c	33;"	d	file:
+LOG	log.h	4;"	d
+LOG_H	log.h	2;"	d
+THRMAIN_H	thr_main.h	2;"	d
+cloud_server	thr_main.c	/^int cloud_server(int id, int cli_fd)$/;"	f
+conf_init	conf.c	/^int conf_init()$/;"	f
+db_ip	conf.c	/^	char db_ip[CONFIG_ITEM_LEN];$/;"	m	struct:__anon1	file:
+db_pass	conf.c	/^	char db_pass[CONFIG_ITEM_LEN];$/;"	m	struct:__anon1	file:
+db_port	conf.c	/^	char db_port[CONFIG_ITEM_LEN];$/;"	m	struct:__anon1	file:
+db_user	conf.c	/^	char db_user[CONFIG_ITEM_LEN];$/;"	m	struct:__anon1	file:
+g_config	conf.c	/^} g_config;$/;"	v	typeref:struct:__anon1
+g_log_conf	log.c	/^} g_log_conf;$/;"	v	typeref:struct:__anon2
+get_db_ip	conf.c	/^char *get_db_ip()$/;"	f
+get_db_pass	conf.c	/^char *get_db_pass()$/;"	f
+get_db_port	conf.c	/^int get_db_port()$/;"	f
+get_db_user	conf.c	/^char *get_db_user()$/;"	f
+get_ip	conf.c	/^char *get_ip()$/;"	f
+get_log_path	conf.c	/^char *get_log_path()$/;"	f
+get_max_thread	conf.c	/^int get_max_thread()$/;"	f
+get_port	conf.c	/^int get_port()$/;"	f
+ip	conf.c	/^	char ip[CONFIG_ITEM_LEN];$/;"	m	struct:__anon1	file:
+leader_lock	thr_main.c	/^pthread_mutex_t leader_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+listen_fd	thr_main.c	/^int listen_fd;$/;"	v
+log_	log.c	/^int log_(char *strFile, int iLine, int id, char *strFmt, ...)$/;"	f
+log_init	log.c	/^int log_init(char *strPath)$/;"	f
+log_path	conf.c	/^	char log_path[CONFIG_ITEM_LEN];$/;"	m	struct:__anon1	file:
+main	main.c	/^int main()$/;"	f
+max_thread	conf.c	/^	char max_thread[CONFIG_ITEM_LEN];$/;"	m	struct:__anon1	file:
+port	conf.c	/^	char port[CONFIG_ITEM_LEN];$/;"	m	struct:__anon1	file:
+strBasePath	log.c	/^	char strBasePath[MAX_PATH];$/;"	m	struct:__anon2	file:
+thr_main	thr_main.c	/^void *thr_main(void *v)$/;"	f
