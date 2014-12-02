@@ -1,0 +1,5 @@
+.*.swp
+main
+*.a
+*.so
+*core*
